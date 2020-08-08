@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
-const token = 'NzA1MDM1NTA4MTQwNjA1NDYw.Xql_Jg.PXBPKA0Wd3J3yuhHdqMCD-6HROs'
+const token = 'Your Token'
 const prefix = '!sa'
 //const openchid =  '714413580757237831'
 //const logchid = '713916694271229994'
