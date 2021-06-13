@@ -2,7 +2,6 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 const config = require('./config.json');
 let jinrostatus = '0';
-const logger = require('./gchatlogger');
 client.login(config.token);
 
 client.on('message', message => {
@@ -60,10 +59,6 @@ client.on('message', message => {
                 if (message.author.bot) return;
                 if (message.attachments.size <= 0) {
                     message.delete()
-                    const tag = (message.author.tag)
-                    const gmsg = (message.cleanContent)
-                    const server = (message.guild.name)
-                    logger.trace(server + tag + gmsg)
                 }
                 client.channels.cache.forEach(channel => {
                     if (message.attachments.size <= 0) {
