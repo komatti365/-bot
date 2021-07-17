@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
-client.login('DISCORD_TOKEN');
+client.login;
 
 client.on('ready', () => {
     client.user.setActivity('!!helpでヘルプ', { type: 'STREAMING' })
