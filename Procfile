@@ -1,1 +1,1 @@
-worker: node kiritanbot2.js
+worker: node ./kiritanbot2.js
